@@ -7,3 +7,10 @@ p {
 li {
     color:white;
 }
+.navbar {
+    overflow: hidden;
+    background-color:rgb(9, 148, 141);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
