@@ -1,47 +1,58 @@
----
-layout: default
-title: Davis Le
-description: Software Developer
----
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <link rel="icon" href="media/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="css/style.css">
+        <title>Davis Le | Software Developer</title>
     </head>
     <body>
-        <header class="navbar">
-            <p style="text-align: center;">
-                <img src="media/phone.png" alt="phone"><a href="tel:6047912212">604-791-2212</a>
-                <img src="media/mail.png" alt="email"><a href="mailto:davisle@live.ca">davisle@live.ca</a> 
-                <img src="media/linkedin.png" alt="linkedin"><a href="https://www.linkedin.com/in/davis-le/">https://www.linkedin.com/in/davis-le/</a>
-            </p>
+        <header>
+            <div class="navbar">
+                <a href="tel:6047912212"><img src="media/phone.png" alt="phone">604-791-2212</a>
+                <a href="mailto:davisle@live.ca"><img src="media/mail.png" alt="email">davisle@live.ca</a> 
+                <a href="https://www.linkedin.com/in/davis-le/"><img src="media/linkedin.png" alt="linkedin">https://www.linkedin.com/in/davis-le/</a>
+            </div>
+            <div class="banner">
+                <div class="bannertext">
+                    <h1>Davis Le</h1>
+                    <h2>Software Developer</h2>
+                </div>
+            </div>
         </header>
         <main>
             <div>
-                <h1><b>About me</b></h1>
+                <h1 style="color:rgb(2, 119, 55)"><b>About me</b></h1>
                 <p>Hi, my name is Davis and my long term goals are to be involved in the creation of high quality services 
                     or products from design to employment for people everywhere to enjoy. I am higly motivated and always 
-                    learning new technologies and solving new problems to ultimately become a greater software developer
+                    learning new technologies and solving new problems to ultimately become a greater software developer.
                 </p>
             </div>
+            <div style="background-color:rgb(25, 25, 25)">
+                <h1 style="color:rgb(2, 119, 55)">Education</h1>
+                <p>The University of the Fraser Valley, Abbotsford, B.C</p>
+                <ul>
+                    <li>Bachelor's Degree of Science, Computer Science Major</li>
+                    <li>Upper-level GPA: 3.85</li>
+                    <li>Dean's List for 3 Semesters</li>
+                </ul>
+            </div>
             <div>
-                <h1><b>Projects</b></h1>
                 <div>
-                    <br>
-                    <h3>Image Classification using Machine Learning</h3>
+                    <div>
+                        <h1 style="color:rgb(2, 119, 55)"><b>Projects</b></h1>
+                    </div>
+                    <h3>Image Classifier using Machine Learning</h3>
                     <ul>
                         <li>Developed a Python program with a GUI To classify images with an in-training accuracy of 91%+ and a validation accuracy of 83%+</li>
                         <li>Implemented high-level machine learning APIs Keras and Google's TensorFlow</li>
                         <li>Utilized dataset of 25,000+ images to build, train and test model from over 50,000 public datasets by Kaggle</li>
                     </ul>
+                    <img src="media/cat.png" alt="Cat Classification" class="center">
+                    <img src="media/dog.png" alt="Dog Classification" class="center">
                     <br>
-                    <img src="media/cat.png" alt="Cat Classification">
-                    <img src="media/dog.png" alt="Dog Classification">
                 </div>
-                <div>
-                    <br><br>
+                <div style="background-color:rgb(25, 25, 25)">
+                    <br>
                     <h3>Path Planning using a Robot Simulator</h3>
                     <ul>
                         <li>Developed using an open-source robot simulator Webots and Python to solve a path planning problem</li>
@@ -49,10 +60,11 @@ description: Software Developer
                         <li>Implemented the Grassfire Algorithm to successfully find the optimal path from point A to point B</li>
                     </ul>
                     <br>
-                    <img src="media/pathplanning.gif" alt="Optimal Path">
+                    <img src="media/pathplanning.gif" alt="Optimal Path" class="center">
+                    <br>
                 </div>
                 <div>
-                    <br><br>
+                    <br>
                     <h3>2D Platformer Game</h3> 
                     <ul>
                         <li>Developed using an open-source game engine Godot and Java with a focus on the Singleton design pattern and nodes</li>
@@ -60,15 +72,15 @@ description: Software Developer
                         <li>Designed unique levels, characters and menu using 50+ public domain assets</li>
                         <li>Developed physics/collision-based systems and state-based AI for NPCS</li>
                     </ul>
-                    <video width="640" height="480" controls>
+                    <video width="640" height="480" controls class="center">
                         <source src="media/platformer.mp4" type="video/mp4">
                       Your browser does not support the video tag.
                     </video>
                 </div>
             </div>
         </main>
-        <footer>
-
+        <footer style="background-color:rgb(25, 25, 25)">
+            <p style="color:rgb(2, 119, 55); padding:50px;">Contact information is in the navigation bar at the top</p>
         </footer>
     </body>
 </html> 
