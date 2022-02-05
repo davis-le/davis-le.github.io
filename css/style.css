@@ -17,19 +17,21 @@ h3 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 p {
-    margin-left: 500px;
-    margin-right: 500px;
     color:white;
     font-size: large;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 50%;
+    text-align: center;
+}
+ul {
+    width: 50%;
+    margin: auto;
 }
 li {
-    margin-left: 500px;
-    margin-right: 500px;
     color:white;
     font-size: large;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    padding: 5px;
+    padding-bottom: 5px;
 }
 a {
     font-size: 25px;
