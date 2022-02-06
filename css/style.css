@@ -45,14 +45,21 @@ hr {
     width: 75%;
 }
 img {
-    width: auto ;
+    width: auto;
     max-width: 100% ;
-    height: auto ;
+    height: auto;
 }
+.row {
+    display: flex;
+  }
+.column {
+    flex: 33.33%;
+    padding: 5px;
+  }
 video {
-    width: auto ;
+    width: auto;
     max-width: 100% ;
-    height: auto ;
+    height: auto;
 }
 .center {
     display: block;
@@ -72,7 +79,7 @@ video {
     right: 0;
 }
 .banner {
-    width: 100%;
+    width: auto;
     background-image: url(../media/banner.jpg);
     background-size: cover;
     height: 405px;
