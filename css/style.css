@@ -2,6 +2,10 @@ body {
     background-color:rgb(37, 37, 37);
     margin: 0;
 }
+footer {
+    background: rgb(37,37,37);
+    background: linear-gradient(rgba(29,5,5,1) 0%, rgba(0,212,255,1) 0%, rgba(37,37,37,1) 0%, rgba(4,55,32,1) 48%, rgba(37,37,37,1) 100%);
+}
 h1 {
     text-align: center;
     color:white;
