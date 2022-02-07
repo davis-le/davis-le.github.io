@@ -34,7 +34,7 @@ li {
     padding-bottom: 5px;
 }
 a {
-    font-size: 25px;
+    font-size: 100%;
     color: white;
     font-style: italic;
     text-decoration: none;
@@ -57,9 +57,9 @@ img {
     padding: 5px;
   }
 video {
-    width: auto;
-    max-width: 100% ;
+    width: 100%;
     height: auto;
+    max-height: 480px;
 }
 .center {
     display: block;
@@ -69,14 +69,13 @@ video {
 .navbar {
     overflow: hidden;
     background-color:rgb(25, 25, 25);
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 100%;
     text-align: center;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
-    right: 0;
 }
 .banner {
     width: auto;
