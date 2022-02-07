@@ -1,5 +1,6 @@
 body {
     background-color:rgb(37, 37, 37);
+    margin: 0;
 }
 h1 {
     text-align: center;
@@ -67,7 +68,8 @@ img {
 }
 .navbar {
     overflow: hidden;
-    background-color:rgb(25, 25, 25);
+    background: rgb(29,5,5);
+    background: linear-gradient(90deg, rgba(29,5,5,1) 0%, rgba(0,212,255,1) 0%, rgba(8,20,42,1) 0%, rgba(3,4,15,1) 55%, rgba(5,62,36,1) 79%);
     position: fixed;
     top: 0;
     width: 100%;
